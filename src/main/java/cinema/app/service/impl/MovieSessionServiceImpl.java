@@ -5,7 +5,6 @@ import cinema.app.lib.Inject;
 import cinema.app.lib.Service;
 import cinema.app.model.MovieSession;
 import cinema.app.service.MovieSessionService;
-
 import java.time.LocalDate;
 import java.util.List;
 

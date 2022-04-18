@@ -6,11 +6,10 @@ import cinema.app.lib.Dao;
 import cinema.app.model.Order;
 import cinema.app.model.User;
 import cinema.app.util.HibernateUtil;
+import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
-
-import java.util.List;
 
 @Dao
 public class OrderDaoImpl implements OrderDao {

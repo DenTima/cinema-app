@@ -5,12 +5,11 @@ import cinema.app.exception.DataProcessingException;
 import cinema.app.lib.Dao;
 import cinema.app.model.Movie;
 import cinema.app.util.HibernateUtil;
-import org.hibernate.Session;
-import org.hibernate.Transaction;
-
-import javax.persistence.criteria.CriteriaQuery;
 import java.util.List;
 import java.util.Optional;
+import javax.persistence.criteria.CriteriaQuery;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 @Dao
 public class MovieDaoImpl implements MovieDao {

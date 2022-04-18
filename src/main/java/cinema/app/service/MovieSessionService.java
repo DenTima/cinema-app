@@ -1,7 +1,6 @@
 package cinema.app.service;
 
 import cinema.app.model.MovieSession;
-
 import java.time.LocalDate;
 import java.util.List;
 

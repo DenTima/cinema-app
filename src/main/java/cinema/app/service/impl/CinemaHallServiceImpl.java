@@ -5,7 +5,6 @@ import cinema.app.lib.Inject;
 import cinema.app.lib.Service;
 import cinema.app.model.CinemaHall;
 import cinema.app.service.CinemaHallService;
-
 import java.util.List;
 
 @Service

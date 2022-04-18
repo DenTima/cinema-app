@@ -6,7 +6,6 @@ import cinema.app.lib.Service;
 import cinema.app.model.User;
 import cinema.app.service.UserService;
 import cinema.app.util.HashUtil;
-
 import java.util.Optional;
 
 @Service

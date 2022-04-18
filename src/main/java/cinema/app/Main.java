@@ -2,10 +2,17 @@ package cinema.app;
 
 import cinema.app.exception.RegistrationException;
 import cinema.app.lib.Injector;
-import cinema.app.model.*;
+import cinema.app.model.CinemaHall;
+import cinema.app.model.Movie;
+import cinema.app.model.MovieSession;
+import cinema.app.model.ShoppingCart;
+import cinema.app.model.User;
 import cinema.app.security.AuthenticationService;
-import cinema.app.service.*;
-
+import cinema.app.service.CinemaHallService;
+import cinema.app.service.MovieService;
+import cinema.app.service.MovieSessionService;
+import cinema.app.service.OrderService;
+import cinema.app.service.ShoppingCartService;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 

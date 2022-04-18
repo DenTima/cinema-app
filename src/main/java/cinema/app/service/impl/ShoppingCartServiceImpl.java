@@ -9,7 +9,6 @@ import cinema.app.model.ShoppingCart;
 import cinema.app.model.Ticket;
 import cinema.app.model.User;
 import cinema.app.service.ShoppingCartService;
-
 import java.util.ArrayList;
 
 @Service

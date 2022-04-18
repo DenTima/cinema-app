@@ -9,7 +9,6 @@ import cinema.app.model.Ticket;
 import cinema.app.model.User;
 import cinema.app.service.OrderService;
 import cinema.app.service.ShoppingCartService;
-
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;

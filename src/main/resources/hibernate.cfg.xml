@@ -1,0 +1,19 @@
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/ticket_app?serverTimezone=UTC</property>
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">root</property>
+        <property name="show_sql">true</property>
+        <property name="hbm2ddl.auto">create-drop</property>
+
+        <mapping class="cinema.app.model.Movie"></mapping>
+        <mapping class="cinema.app.model.MovieSession"></mapping>
+        <mapping class="cinema.app.model.CinemaHall"></mapping>
+        <mapping class="cinema.app.model.User"></mapping>
+        <mapping class="cinema.app.model.Ticket"></mapping>
+        <mapping class="cinema.app.model.ShoppingCart"></mapping>
+        <mapping class="cinema.app.model.Order"></mapping>
+    </session-factory>
+</hibernate-configuration>
